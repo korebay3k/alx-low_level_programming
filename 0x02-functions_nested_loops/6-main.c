@@ -1,31 +1,37 @@
-#include "main.h"
-
-
-
 /**
  *
- *  * _abs - the absolute value function
+ *  * main - check the code
  *
- *   * @a: - parameter
+ *   *
  *
- *    * Return: 0 for no errors
+ *    * Return: Always 0.
  *
  *     */
 
-int _abs(int a)
+int main(void)
 
 {
 
-		if (a < 0)
+	    int r;
 
-					return (-a);
 
-			else if (a > 0)
 
-						return (a);
+	        r = _abs(-1);
 
-				else
+		    printf("%d\n", r);
 
-							return (0);
+		        r = _abs(0);
+
+			    printf("%d\n", r);
+
+			        r = _abs(1);
+
+				    printf("%d\n", r);
+
+				        r = _abs(-98);
+
+					    printf("%d\n", r);
+
+					        return (0);
 
 }
